@@ -83,10 +83,12 @@ const textarea = document.createElement("textarea");
 textarea.setAttribute("type", "textarea");
 textarea.setAttribute("autofocus", "true");
 textarea.id = "textarea";
+textarea.focus();
 
 let symbolsRu = [];
 let symbolsEng = [];
 let keys = [];
+localStorage.setItem("lang", "en");
 let lang = localStorage.getItem("lang");
 let isCaps = false;
 
