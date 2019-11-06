@@ -82,6 +82,7 @@ wrapper.className = "keyboard";
 const textarea = document.createElement("textarea");
 textarea.setAttribute("type", "textarea");
 textarea.setAttribute("autofocus", "true");
+textarea.setAttribute("placeholder", "to change the language, press ctrl+alt");
 textarea.id = "textarea";
 textarea.focus();
 
